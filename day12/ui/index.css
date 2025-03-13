@@ -1,0 +1,9 @@
+aside {
+  width: 10vw;
+  height: 100vh;
+  background-color: gray;
+  transition: all 1s;
+}
+.close {
+  width: 0px;
+}
