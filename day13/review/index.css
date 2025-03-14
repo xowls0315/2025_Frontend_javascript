@@ -1,0 +1,46 @@
+/* .switch {
+  width: 40px;
+  height: 20px;
+  border-radius: 16px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  background-color: #cdd0d2;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+.offColor {
+  background-color: #cdd0d2;
+}
+.onColor {
+  background-color: #5d7d2b;
+}
+
+.offPosition {
+  transform: translateX(0px);
+}
+.onPosition {
+  transform: translateX(20px);
+} */
+
+.check {
+  margin-right: 10px;
+  border-radius: 9999px;
+}
+
+.off {
+  color: white;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.on {
+  color: white;
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}

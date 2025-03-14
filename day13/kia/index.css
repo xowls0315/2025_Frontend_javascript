@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+.container > div {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: 1px solid greenyellow;
+}
+
+.checked {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+}
+.unchecked {
+  background-color: white;
+  border: 1px solid greenyellow;
+  color: black;
+  cursor: pointer;
+}
