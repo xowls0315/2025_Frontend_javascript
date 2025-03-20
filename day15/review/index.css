@@ -19,7 +19,10 @@
   display: flex;
   gap: 10px;
 }
-.validation > span {
+.validText {
   font-weight: bold;
   color: #efefef;
+}
+.pass {
+  color: lightgreen;
 }
