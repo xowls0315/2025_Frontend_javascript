@@ -1,0 +1,34 @@
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 100px;
+  cursor: pointer;
+}
+.header__hamburger {
+  position: relative;
+  width: 36px;
+  height: 14px;
+  cursor: pointer;
+}
+.header__hamburger > .upBar {
+  position: absolute;
+  top: 0px;
+  width: 26px;
+  height: 3px;
+  background-color: white;
+}
+.header__hamburger > .downBar {
+  position: absolute;
+  bottom: 0px;
+  width: 26px;
+  height: 3px;
+  left: 15px;
+  background-color: white;
+}

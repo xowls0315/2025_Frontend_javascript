@@ -3,3 +3,23 @@
   background-image: url("../photo/main_visual_fullscreen.jpg");
   background-size: cover;
 }
+.hero__sentence {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero__sentence > span {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  transition: all 1s;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
