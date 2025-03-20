@@ -1,0 +1,27 @@
+.startsocar {
+  width: 100vw;
+  height: 50vh;
+  background-color: #00b8ff;
+  margin-top: 100px;
+}
+.startsocar > .startsocar__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  line-height: 1.6;
+  background-color: #f7f8f9;
+
+  transform: skew(-30deg) translateX(-220px);
+}
+.startsocar > .startsocar__container > .startsocar__sentence {
+  text-align: center;
+  color: #aaaaaa;
+  transform: skew(30deg);
+  margin-left: 400px;
+}
+.startsocar > .startsocar__container > .startsocar__sentence > span {
+  color: #00b8ff;
+}

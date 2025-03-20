@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="./css/download.css" />
+    <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="./css/anytime.css" />
     <link rel="stylesheet" href="./css/wantplace.css" />
     <link rel="stylesheet" href="./css/needtime.css" />
     <link rel="stylesheet" href="./css/manycar.css" />
-    <link rel="stylesheet" href="./css/download.css" />
-    <script type="module" src="./javascript/index.js" defer></script>
+    <link rel="stylesheet" href="./css/startsocar.css" />
+    <script type="module" src="javascript/index.js" defer></script>
   </head>
   <body>
     <header>
-      <div class="header__logo">
-        <img src="https://www.socar.kr/images/logo-w.svg" alt="" />
+      <div class="logo">
+        <img id="logo" src="https://www.socar.kr/images/logo-w.svg" alt="" />
       </div>
-      <div class="header__hamburger">
+      <div class="hamburger">
         <span class="upBar"></span>
         <span class="downBar"></span>
       </div>
@@ -30,47 +34,54 @@
     </div>
     <main>
       <section class="hero">
-        <div class="hero__sentence">
-          <span class="fade-out">차가 필요한</span>
-          <span class="fade-out">모든 순간, 쏘카</span>
-        </div>
+        <article class="contents fade-out">
+          <h1>차가 필요한 <br />모든 순간, 쏘카</h1>
+        </article>
       </section>
       <section class="anytime fade-out">
-        <div class="anytime__sentence">
+        <article class="anytime__sentence">
           <h2>24시간 언제나</h2>
           <span>한밤중이나 주말에도 스마트폰으로</span>
           <span>시간에 구애받지 않고</span>
           <span>쏘카와 함께 이동하세요.</span>
-        </div>
+        </article>
         <div class="anytime__image"></div>
       </section>
       <section class="wantplace fade-out">
-        <div class="wantplace__sentence">
+        <article class="wantplace__sentence">
           <h2>원하는 곳에서</h2>
           <span>내 주변 3분 거리 쏘카존에서</span>
           <span>혹은 내가 있는 곳으로 쏘카를 불러</span>
           <span>어디서나 편하게 출발하세요. </span>
-        </div>
+        </article>
         <div class="wantplace__image"></div>
       </section>
       <section class="needtime fade-out">
-        <div class="needtime__sentence">
+        <article class="needtime__sentence">
           <h2>필요한 시간만큼</h2>
           <span>간단한 장보기부터 주말여행까지</span>
           <span>10분 단위로 원하는 만큼만 이용하세요.</span>
-        </div>
+        </article>
         <div class="needtime__image"></div>
       </section>
       <section class="manycar fade-out">
-        <div class="manycar__sentence">
+        <article class="manycar__sentence">
           <h2>다양한 차종을</h2>
           <span>연인과의 드라이브부터 가족 캠핑까지</span>
           <span>상황에 맞게 50여 종의 차량을</span>
           <span>선택해서 이용하세요.</span>
-        </div>
+        </article>
         <div class="manycar__image"></div>
       </section>
+      <section class="startsocar">
+        <article class="startsocar__container">
+          <div class="startsocar__sentence">
+            <span>10,686,173</span>명의 회원이 쏘카와<br />함께하고 있습니다.<br />지금
+            바로 <span>쏘카 드라이브</span>를<br />시작하세요.
+          </div>
+        </article>
+      </section>
+      <footer></footer>
     </main>
-    <footer></footer>
   </body>
 </html>
