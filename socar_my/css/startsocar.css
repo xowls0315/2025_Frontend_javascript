@@ -1,27 +1,29 @@
 .startsocar {
-  width: 100vw;
-  height: 50vh;
-  background-color: #00b8ff;
-  margin-top: 100px;
+  background-color: #f7f8f9;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
 }
 .startsocar > .startsocar__container {
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
   font-size: 40px;
-  line-height: 1.6;
-  background-color: #f7f8f9;
-
-  transform: skew(-30deg) translateX(-220px);
-}
-.startsocar > .startsocar__container > .startsocar__sentence {
-  text-align: center;
+  line-height: 1.5;
   color: #aaaaaa;
-  transform: skew(30deg);
-  margin-left: 400px;
+  text-align: center;
 }
-.startsocar > .startsocar__container > .startsocar__sentence > span {
+.startsocar > .startsocar__skewer {
+  height: 100%;
+  width: 30%;
+  background-color: #00b8ff;
+  transform: skew(-30deg);
+  position: absolute;
+  top: 0px;
+  right: -10%;
+  transition: all 0.5s;
+}
+.startsocar > .startsocar__container > span {
   color: #00b8ff;
 }
